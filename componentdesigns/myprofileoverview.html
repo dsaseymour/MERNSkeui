@@ -21,12 +21,12 @@
 
   <body>
     <nav class="navbar navbar-expand-lg  navbar-light bg-light">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#" style="margin-right: 50vw">
         <img
           src="../public/skull.svg"
           width="30"
           height="30"
-          class="d-inline-block align-top"
+          class="d-inline-block align-top rounded-circle"
           alt=""
         />
         MernSkeleton
@@ -37,12 +37,14 @@
           src="../public/danny.jpg"
           width="30"
           height="30"
-          class="d-inline-block align-top"
+          class="d-inline-block align-top rounded-circle"
           alt=""
         />
         Danny Seymour
       </a>
+      <hr />
       <a class="nav-item nav-link">Home</a>
+      <hr />
       <button
         class="navbar-toggler"
         type="button"
@@ -77,20 +79,25 @@
         </ul>
       </div>
     </nav>
+
     <div class="container">
       <div class="row">
         <div class="col-lg text-center">
-          <div class="row">
+          <div
+            class="row"
+            style="background:transparent url('../public/profilebackground.jpg') no-repeat center center /cover; "
+          >
             <div class="col">
               <form>
                 <img
                   width="150"
                   height="150"
                   src="../public/danny.jpg"
-                  class="img-fluid img-thumbnail"
+                  class="img-fluid img-thumbnail rounded-circle"
                   alt="Picture of User"
+                  style="z-index:0"
                 />
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary" style="z-index:0">
                   Update Info
                 </button>
 
