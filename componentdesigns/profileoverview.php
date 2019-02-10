@@ -23,9 +23,7 @@
                   alt="Picture of User"
                   style="z-index:0"
                 />
-                <a type="button" href="./editprofilebasic.php" class="btn btn-primary" style="z-index:0">
-                  Update Info
-</a>
+ 
 
                 <div class="form-group">
                   <input

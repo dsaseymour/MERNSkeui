@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg  navbar-light bg-light">
-      <a class="navbar-brand" href="#" style="margin-right: 50vw">
+      <a class="navbar-brand" href="./userdashboard.php" style="margin-right: 50vw">
         <img
           src="../public/skull.svg"
           width="30"
@@ -10,7 +10,7 @@
         MernSkeleton
       </a>
 
-      <a class="navbar-brand " href="#">
+      <a class="navbar-brand " href="./myprofileoverview.php">
         <img
           src="../public/danny.jpg"
           width="30"
@@ -21,7 +21,7 @@
         Danny Seymour
       </a>
       <hr />
-      <a class="nav-item nav-link">Home</a>
+      <a href="./userdashboard.php" class="nav-item nav-link">Home</a>
       <hr />
       <button
         class="navbar-toggler"
@@ -48,16 +48,16 @@
             >
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#"
+              <a class="dropdown-item" href="./myprofileoverview.php"
                 >Put Display name here <br />
                 @ Put Handle Here
                 <div class="dropdown-divider"></div>
               </a>
-              <a class="dropdown-item" href="#">Profile</a>
-              <a class="dropdown-item" href="#">User Settings</a>
-              <a class="dropdown-item" href="#">Help</a>
+              <a class="dropdown-item" href="./myprofileoverview.php">Profile</a>
+              <a class="dropdown-item" href="./usersettings.php">User Settings</a>
+              <a class="dropdown-item" href="./help.php">Help</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Log out</a>
+              <a class="dropdown-item" href="./login.php">Log out</a>
             </div>
           </li>
         </ul>

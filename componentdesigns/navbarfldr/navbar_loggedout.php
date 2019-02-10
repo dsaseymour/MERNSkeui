@@ -1,5 +1,5 @@
 <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="./landing.php">
     <img
       src="../public/skull.svg"
       width="30"
@@ -10,5 +10,5 @@
     MernSkeleton
   </a>
 
-  <button type="button" class="btn btn-primary">Login</button>
+  <a href="./userdashboard.php" type="button" class="btn btn-primary">Login</a>
 </nav>
