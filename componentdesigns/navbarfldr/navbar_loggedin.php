@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-lg  navbar-light bg-light">
-      <a class="navbar-brand" href="./userdashboard.php" style="margin-right: 50vw">
+      <form class="form-inline my-2 my-lg-0" style="display:inline; margin-right: 23vw ">
+      <a class="navbar-brand" href="./userdashboard.php" >
         <img
           src="../public/skull.svg"
           width="30"
@@ -7,8 +8,11 @@
           class="d-inline-block align-top rounded-circle"
           alt=""
         />
-        MernSkeleton
       </a>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
 
       <a class="navbar-brand " href="./myprofileoverview.php">
         <img
@@ -54,7 +58,7 @@
                 <div class="dropdown-divider"></div>
               </a>
               <a class="dropdown-item" href="./myprofileoverview.php">Profile</a>
-              <a class="dropdown-item" href="./usersettings.php">User Settings</a>
+              <a class="dropdown-item" href="./usersettingsaccount.php">User Settings</a>
               <a class="dropdown-item" href="./help.php">Help</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="./login.php">Log out</a>
