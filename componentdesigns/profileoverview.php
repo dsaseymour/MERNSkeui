@@ -18,7 +18,7 @@
                 <img
                   width="150"
                   height="150"
-                  src="../public/danny.jpg"
+                  src="../public/kenya.jpg"
                   class="img-fluid img-thumbnail rounded-circle"
                   alt="Picture of User"
                   style="z-index:0"
