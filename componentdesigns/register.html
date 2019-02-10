@@ -10,6 +10,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="import" href="./navbar.html" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
 
     <link
       rel="stylesheet"
@@ -36,8 +42,8 @@
         Login
       </a>
     </nav>
-    <div class="container">
-      <div class="row">
+    <div class="container" style="margin-top:10vh">
+      <div class="row" style="height: 70vh">
         <div class="col-md text-center">
           <form>
             <div class="form-group">
@@ -80,12 +86,8 @@
             </label>
 
             <div class="form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
+              <input type="checkbox" class="form-check-input" id="consent" />
+              <label class="form-check-label" for="consent"
                 >I agree to the Terms and Conditions</label
               >
             </div>
@@ -95,13 +97,20 @@
           </form>
         </div>
         <div class="col-md text-center">
-          <div>
-            <button type="button" class="btn btn-primary">
+          <div style="margin-bottom:1vh">
+            <button
+              type="button btn-danger"
+              style="padding:1em"
+              class="btn btn-danger"
+            >
+              <i class="fab fa-google"></i>
+
               Signup with Google
             </button>
           </div>
           <div>
-            <button type="button" class="btn btn-primary">
+            <button type="button" style="padding:1em" class="btn btn-primary">
+              <i class="fab fa-facebook"></i>
               Signup with Facebook
             </button>
           </div>
