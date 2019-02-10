@@ -19,7 +19,7 @@
   </head>
 
   <body>
-  <?php require'./navbar_loggedin';?>
+  <?php require'./navbar_loggedin.php';?>
 
     <div class="container">
       <div class="row">
