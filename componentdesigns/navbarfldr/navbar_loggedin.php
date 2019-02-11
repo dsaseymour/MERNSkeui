@@ -10,7 +10,7 @@
         />
       </a>
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <a class="btn btn-outline-success my-2 my-sm-0" href="./searchresults.php" ><i class="fas fa-search"></i></a>
     </form>
 
 
@@ -25,7 +25,9 @@
         Danny Seymour
       </a>
       <hr />
-      <a href="./userdashboard.php" class="nav-item nav-link">Home</a>
+      <a href="./userdashboard.php" class="nav-item nav-link"><i class="fas fa-home"></i></a>
+      <hr />
+      <a href="./discover.php" class="nav-item nav-link"><i class="fas fa-compass"></i></a>
       <hr />
       <button
         class="navbar-toggler"
